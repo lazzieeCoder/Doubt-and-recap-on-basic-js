@@ -1,0 +1,49 @@
+1.D/B var,let,const
+2. Hoisting /NaN
+3. functions // iife ,arrow
+4. MRF
+5. Objects // Objects.assign(clonning an object)
+6. Template Literals
+7. D/B == and ===
+8.spread Operator
+9.examples
+
+abcd => dabc // split,join,sort
+
+[{
+    key:value,
+    key:[value]
+},
+{
+key:value,
+    key:[value]
+},
+{
+key:value,
+    key:[value]
+}]  // spread operator
+
+duplicate numbers  // filter / indexof
+
+element is there or not //includes / indexof
+
+Example 1:- 
+Given two Strings, return true if they are anagrams of one another
+example ABCD and DABC are anagrams of each other
+
+Example 2:-
+collect books from array of Objects and return collection of books as an array.
+const books = [
+    {
+        author:"Paulo",
+        books:['The Alchemist','Eleven Minutes']
+    },
+    {
+        author:"John Green",
+        books:['The Fault in our Stars']
+    },
+    {
+        author:"James Alen",
+        books:['The Way Of Peace','As you Think']
+    }
+];
